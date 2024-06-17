@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{0259E1F6-6EC3-956D-B701-471323AB73C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\imgui">
+      <UniqueIdentifier>{EC9F00EA-582B-6EAE-613C-F1A2CD46CAAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\imgui\backends">
+      <UniqueIdentifier>{96C37661-82E8-C5E1-AB33-AB7197B7C4FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{1CA10C65-086E-6770-3187-55181DB39CFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD">
+      <UniqueIdentifier>{D02A9DBF-3CB6-0A84-45C7-8D78B1D16684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\Assets">
+      <UniqueIdentifier>{B22759F1-9E21-8243-878E-18547327E8AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\Graphics">
+      <UniqueIdentifier>{101D96BF-FC41-E53F-258D-CACF1111E45D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\Graphics\Buffers">
+      <UniqueIdentifier>{8CEC1EA7-783D-0AE9-A1A1-F8AA8D519D52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\Graphics\DescriptorSet">
+      <UniqueIdentifier>{EA6858E3-D6BA-2FD3-BFD9-6CE3ABCA48BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\Graphics\Image">
+      <UniqueIdentifier>{028BA433-EEB0-6E9A-D7F6-F365C3BB9366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\Graphics\Pipeline">
+      <UniqueIdentifier>{357720F2-A1E5-7571-EACE-3071567C6B0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\IO">
+      <UniqueIdentifier>{77CAF78D-63AE-B8E3-CC0E-B336B811A365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\Maps">
+      <UniqueIdentifier>{30D116EB-1C60-A0B4-C57E-B4AFB1ECB05A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\Math">
+      <UniqueIdentifier>{A9D116EB-9560-A0B4-3E7F-B4AF2AEDB05A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\Renderers">
+      <UniqueIdentifier>{A9A7E080-156A-140B-5E1A-A397CA1BEDE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes\BTDSTD\Vender">
+      <UniqueIdentifier>{C3615521-AF5B-7E73-98C8-14848461E4DF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\OS">
+      <UniqueIdentifier>{7E4A661C-6AEC-90F2-53A7-A4463FE81743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\OS\Windows">
+      <UniqueIdentifier>{B8925DF6-A460-51FC-8DF4-C12279612D61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Vender">
+      <UniqueIdentifier>{80373B35-6CEF-7C82-D5F6-55DEC1CD1773}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libraries\imgui\backends\imgui_impl_glfw.h">
+      <Filter>Libraries\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\backends\imgui_impl_vulkan.h">
+      <Filter>Libraries\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\imgui.h">
+      <Filter>Libraries\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Assets\Material.hpp">
+      <Filter>includes\BTDSTD\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Assets\Mesh.hpp">
+      <Filter>includes\BTDSTD\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Assets\MeshLoader.hpp">
+      <Filter>includes\BTDSTD\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\CompilerFunctions.hpp">
+      <Filter>includes\BTDSTD</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\Buffers\Buffer.hpp">
+      <Filter>includes\BTDSTD\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\Buffers\CommandPool.hpp">
+      <Filter>includes\BTDSTD\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\DescriptorSet\DescriptorSet.hpp">
+      <Filter>includes\BTDSTD\Graphics\DescriptorSet</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\GPU.hpp">
+      <Filter>includes\BTDSTD\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\Image\Attachment.hpp">
+      <Filter>includes\BTDSTD\Graphics\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\Image\Image.hpp">
+      <Filter>includes\BTDSTD\Graphics\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\Pipeline\ComputePipeline.hpp">
+      <Filter>includes\BTDSTD\Graphics\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\Pipeline\GraphicsPipeline.hpp">
+      <Filter>includes\BTDSTD\Graphics\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\Pipeline\PipelineLayout.hpp">
+      <Filter>includes\BTDSTD\Graphics\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\Pipeline\Shader.hpp">
+      <Filter>includes\BTDSTD\Graphics\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\Swapchain.hpp">
+      <Filter>includes\BTDSTD\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\SyncObjects.hpp">
+      <Filter>includes\BTDSTD\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Graphics\Window.hpp">
+      <Filter>includes\BTDSTD\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\IO\File.hpp">
+      <Filter>includes\BTDSTD\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Logger.hpp">
+      <Filter>includes\BTDSTD</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Maps\IDStringRegistery.hpp">
+      <Filter>includes\BTDSTD\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Math\Camera.hpp">
+      <Filter>includes\BTDSTD\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Math\Colors.hpp">
+      <Filter>includes\BTDSTD\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Math\Matrix.hpp">
+      <Filter>includes\BTDSTD\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Math\Quaterion.hpp">
+      <Filter>includes\BTDSTD\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Math\Transform.hpp">
+      <Filter>includes\BTDSTD\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Math\Vectors.hpp">
+      <Filter>includes\BTDSTD\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\OS.hpp">
+      <Filter>includes\BTDSTD</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Renderers\RenderManager.hpp">
+      <Filter>includes\BTDSTD\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Types.hpp">
+      <Filter>includes\BTDSTD</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Vender\VkBootstrap.h">
+      <Filter>includes\BTDSTD\Vender</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Vender\VkBootstrapDispatch.h">
+      <Filter>includes\BTDSTD\Vender</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Vender\json.hpp">
+      <Filter>includes\BTDSTD\Vender</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Vender\stb_image.h">
+      <Filter>includes\BTDSTD\Vender</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Vender\stb_image_write.h">
+      <Filter>includes\BTDSTD\Vender</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Vender\tiny_gltf.h">
+      <Filter>includes\BTDSTD\Vender</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\Vender\vk_mem_alloc.h">
+      <Filter>includes\BTDSTD\Vender</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\BTDSTD\String.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Libraries\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Libraries\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\backends\imgui_impl_vulkan.cpp">
+      <Filter>Libraries\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui_demo.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui_draw.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui_tables.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui_widgets.cpp">
+      <Filter>Libraries\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OS\Windows\WindowsOS.cpp">
+      <Filter>src\OS\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vender\VkBootstrap.cpp">
+      <Filter>src\Vender</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vender\build.cpp">
+      <Filter>src\Vender</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
