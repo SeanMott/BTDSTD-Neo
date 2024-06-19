@@ -59,7 +59,7 @@ includedirs
 
 	"C:/GameDev//BTDSTD-Deps/glfw/include",
 	"C:/GameDev//BTDSTD-Deps/yaml-cpp/include",
-	"C:/VulkanSDK\1.3.275.0/include",
+	"C:/VulkanSDK/1.3.275.0/include",
 	"C:/GameDev//BTDSTD-Deps/glm",
 	"C:/GameDev//BTDSTD-Deps/imgui",
 	"C:/GameDev//BTDSTD-Deps/imgui/backends",
@@ -69,7 +69,7 @@ links
 {
 	"yaml-cpp",
 	"GLFW",
-	"C:/VulkanSDK\1.3.275.0/Lib/vulkan-1.lib",
+	"C:/VulkanSDK/1.3.275.0/Lib/vulkan-1.lib",
 }
 
 defines 

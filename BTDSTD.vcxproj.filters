@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Libraries">
-      <UniqueIdentifier>{0259E1F6-6EC3-956D-B701-471323AB73C2}</UniqueIdentifier>
+    <Filter Include="BTDSTD-Deps">
+      <UniqueIdentifier>{C3393E0F-2FEF-B604-B8E3-B0DB2498AD08}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Libraries\imgui">
-      <UniqueIdentifier>{EC9F00EA-582B-6EAE-613C-F1A2CD46CAAE}</UniqueIdentifier>
+    <Filter Include="BTDSTD-Deps\imgui">
+      <UniqueIdentifier>{6D4D2DD5-D963-2B6B-22DB-B68C8E30FCF2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Libraries\imgui\backends">
-      <UniqueIdentifier>{96C37661-82E8-C5E1-AB33-AB7197B7C4FF}</UniqueIdentifier>
+    <Filter Include="BTDSTD-Deps\imgui\backends">
+      <UniqueIdentifier>{373289CB-2342-359C-8CFB-99BA782A2435}</UniqueIdentifier>
     </Filter>
     <Filter Include="includes">
       <UniqueIdentifier>{1CA10C65-086E-6770-3187-55181DB39CFE}</UniqueIdentifier>
@@ -63,14 +63,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Libraries\imgui\backends\imgui_impl_glfw.h">
-      <Filter>Libraries\imgui\backends</Filter>
+    <ClInclude Include="..\BTDSTD-Deps\imgui\backends\imgui_impl_glfw.h">
+      <Filter>BTDSTD-Deps\imgui\backends</Filter>
     </ClInclude>
-    <ClInclude Include="Libraries\imgui\backends\imgui_impl_vulkan.h">
-      <Filter>Libraries\imgui\backends</Filter>
+    <ClInclude Include="..\BTDSTD-Deps\imgui\backends\imgui_impl_vulkan.h">
+      <Filter>BTDSTD-Deps\imgui\backends</Filter>
     </ClInclude>
-    <ClInclude Include="Libraries\imgui\imgui.h">
-      <Filter>Libraries\imgui</Filter>
+    <ClInclude Include="..\BTDSTD-Deps\imgui\imgui.h">
+      <Filter>BTDSTD-Deps\imgui</Filter>
     </ClInclude>
     <ClInclude Include="includes\BTDSTD\Assets\Material.hpp">
       <Filter>includes\BTDSTD\Assets</Filter>
@@ -156,6 +156,9 @@
     <ClInclude Include="includes\BTDSTD\Renderers\RenderManager.hpp">
       <Filter>includes\BTDSTD\Renderers</Filter>
     </ClInclude>
+    <ClInclude Include="includes\BTDSTD\String.hpp">
+      <Filter>includes\BTDSTD</Filter>
+    </ClInclude>
     <ClInclude Include="includes\BTDSTD\Types.hpp">
       <Filter>includes\BTDSTD</Filter>
     </ClInclude>
@@ -180,29 +183,28 @@
     <ClInclude Include="includes\BTDSTD\Vender\vk_mem_alloc.h">
       <Filter>includes\BTDSTD\Vender</Filter>
     </ClInclude>
-    <ClInclude Include="includes\BTDSTD\String.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Libraries\imgui\backends\imgui_impl_glfw.cpp">
-      <Filter>Libraries\imgui\backends</Filter>
+    <ClCompile Include="..\BTDSTD-Deps\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>BTDSTD-Deps\imgui\backends</Filter>
     </ClCompile>
-    <ClCompile Include="Libraries\imgui\backends\imgui_impl_vulkan.cpp">
-      <Filter>Libraries\imgui\backends</Filter>
+    <ClCompile Include="..\BTDSTD-Deps\imgui\backends\imgui_impl_vulkan.cpp">
+      <Filter>BTDSTD-Deps\imgui\backends</Filter>
     </ClCompile>
-    <ClCompile Include="Libraries\imgui\imgui.cpp">
-      <Filter>Libraries\imgui</Filter>
+    <ClCompile Include="..\BTDSTD-Deps\imgui\imgui.cpp">
+      <Filter>BTDSTD-Deps\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="Libraries\imgui\imgui_demo.cpp">
-      <Filter>Libraries\imgui</Filter>
+    <ClCompile Include="..\BTDSTD-Deps\imgui\imgui_demo.cpp">
+      <Filter>BTDSTD-Deps\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="Libraries\imgui\imgui_draw.cpp">
-      <Filter>Libraries\imgui</Filter>
+    <ClCompile Include="..\BTDSTD-Deps\imgui\imgui_draw.cpp">
+      <Filter>BTDSTD-Deps\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="Libraries\imgui\imgui_tables.cpp">
-      <Filter>Libraries\imgui</Filter>
+    <ClCompile Include="..\BTDSTD-Deps\imgui\imgui_tables.cpp">
+      <Filter>BTDSTD-Deps\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="Libraries\imgui\imgui_widgets.cpp">
-      <Filter>Libraries\imgui</Filter>
+    <ClCompile Include="..\BTDSTD-Deps\imgui\imgui_widgets.cpp">
+      <Filter>BTDSTD-Deps\imgui</Filter>
     </ClCompile>
     <ClCompile Include="src\OS\Windows\WindowsOS.cpp">
       <Filter>src\OS\Windows</Filter>

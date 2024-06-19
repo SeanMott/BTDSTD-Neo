@@ -6,3 +6,5 @@
 /Libraries/fastgltf/.github
 /Libraries
 *.vcxproj
+*.vcxproj
+*.filters
